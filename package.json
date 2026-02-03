@@ -1,0 +1,30 @@
+{
+  "name": "foxycolor",
+  "version": "1.0.0",
+  "description": "[NPM Package] Foxy Color : Use your CLI with styles",
+  "homepage": "https://github.com/Cafeine-Software/FoxyColor#readme",
+  "bugs": {
+    "url": "https://github.com/Cafeine-Software/FoxyColor/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cafeine-Software/FoxyColor.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "foxyColor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ansi",
+    "cli",
+    "style",
+    "colors",
+    "cafeine-software"
+  ],
+  "dependencies": {
+    "@cafeine-software/padcenter": "^1.0.2"
+  }
+}
