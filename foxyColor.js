@@ -1,7 +1,8 @@
 /**
  * @summary A class for styling console text with ANSI escape codes
- * @description Implement terminal color based on : 
+ * @description Implement terminal color based on :
  * - ECMA-48, 5th Edition (Juin 1991), Section 8.3.117
+ * - AIXterm bright colors extension (codes 90-97, 100-107), an IBM extension that became a de facto standard
  * @see https://ecma-international.org/wp-content/uploads/ECMA-48_5th_edition_june_1991.pdf
  * @property {Object} ANSI The ANSI escape codes for styling text
  */
