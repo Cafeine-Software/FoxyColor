@@ -1,6 +1,7 @@
 /**
  * @summary A class for styling console text with ANSI escape codes
- * @description Implement terminal color based on ECMA-48, 5th Edition (Juin 1991), Section 8.3.117
+ * @description Implement terminal color based on : 
+ * - ECMA-48, 5th Edition (Juin 1991), Section 8.3.117
  * @see https://ecma-international.org/wp-content/uploads/ECMA-48_5th_edition_june_1991.pdf
  * @property {Object} ANSI The ANSI escape codes for styling text
  */
@@ -25,19 +26,24 @@ export default class FoxyColor {
         foreground: {
 
             classic:{
-                blue: "\x1b[34m",
+                black: "\x1b[30m",
                 red: "\x1b[31m",
-                yellow: "\x1b[33m",
                 green: "\x1b[32m",
-                white: "\x1b[37m",
-                purple: "\x1b[35m"
+                yellow: "\x1b[33m",
+                blue: "\x1b[34m",
+                magenta: "\x1b[35m",
+                cyan: "\x1b[36m",
+                white: "\x1b[37m"
             },
 
             bright: {
-                blue: "\x1b[94m",
+                black: "\x1b[90m",
                 red: "\x1b[91m",
-                yellow: "\x1b[93m",
                 green: "\x1b[92m",
+                yellow: "\x1b[93m",
+                blue: "\x1b[94m",
+                magenta: "\x1b[95m",
+                cyan: "\x1b[96m",
                 white: "\x1b[97m"
             }
         },
@@ -45,19 +51,24 @@ export default class FoxyColor {
         background: {
 
             classic:{
-                blue: "\x1b[44m",
+                black: "\x1b[40m",
                 red: "\x1b[41m",
-                yellow: "\x1b[43m",
                 green: "\x1b[42m",
-                white: "\x1b[47m",
+                yellow: "\x1b[43m",
+                blue: "\x1b[44m",
+                magenta: "\x1b[45m",
+                cyan: "\x1b[46m",
+                white: "\x1b[47m"
             },
 
-
             bright: {
-                blue: "\x1b[104m",
+                black: "\x1b[100m",
                 red: "\x1b[101m",
-                yellow: "\x1b[103m",
                 green: "\x1b[102m",
+                yellow: "\x1b[103m",
+                blue: "\x1b[104m",
+                magenta: "\x1b[105m",
+                cyan: "\x1b[106m",
                 white: "\x1b[107m"
             }
         }

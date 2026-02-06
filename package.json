@@ -25,6 +25,5 @@
     "cafeine-software"
   ],
   "dependencies": {
-    "@cafeine-software/padcenter": "^1.0.2"
   }
 }
